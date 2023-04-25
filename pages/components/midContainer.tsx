@@ -88,13 +88,27 @@ export const Midcontainer = () => {
           <p>Since JaxCore runs on Rainmeter, you can customize every aspect to your liking. Sky's the limit.</p></div>
         </div>
       </div>
-      <div className='w-full h-[65px] mt-10 px-[65px]'>
+      <div className='w-full h-[65px] mt-10 px-[65px]' >
       <hr /></div>
       <div className='flex flex-col items-center text-white'>
-      <h2 className='mb-2'>Get to know what you'll use</h2>
+        <h2 className='mb-2'>Get to know what you'll use</h2>
         <h1 className='text-4xl font-bold'>Modules & Widgets</h1>
-      </div>
-      
+        <div className='flex mt-10 bg-zinc-800 max-w-2xl h-[100px] justify-center items-center overflow-scroll overflow-y-hidden rounded-lg px-4 gap-5'>
+            <div className='flex gap-5'>
+            <img src="YourFlyouts.png" width={48} height={48} className='transition 150ms hover:border-2 p-1'/>
+            <img src="YourMixer.png" width={48} height={48}/>
+            <img src="ValliStart.png" width={48} height={48}/>
+            <img src="Keylaunch.png" width={48} height={48}/>
+            </div>
+            <div className='flex gap-5'>
+            <img src="IdleStyle.png" width={48} height={48}/>
+            <img src="ModularVisualizer.png" width={48} height={48}/>
+            <img src="ModularClocks.png" width={48} height={48}/>
+            <img src="ModularPlayers.png" width={48} height={48}/>
+            <img src="Plainext.png" width={48} height={48}/>
+            </div>
+          </div>
+        </div>
   </div>
   )
 }

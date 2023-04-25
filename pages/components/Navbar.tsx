@@ -19,7 +19,7 @@ const Navbar = () => {
             <hr className='md:w-[40vw] sm:w-[40vw] xms:w-[40vw]'/>
              <div className='lg:flex justify-between gap-7 items-center hidden' >
                 <a href='#' className='text-white text-xl hover:translate-y-1 '>Home</a>
-                <a href='#' className='text-white text-xl hover:translate-y-1'>Modules</a>
+                <a href='#modules' className='text-white text-xl hover:translate-y-1'>Modules</a>
                 <a href='#'><img src='s-hub logo.png' className='h-8 hover:translate-y-1'alt='s-hub-link'></img></a>
                 <a href='#'><img src='GitHub.png' className='h-8 hover:translate-y-1'alt='github-link'></img></a>
                 <a href="#"><img src="Discord.png" className='h-8 hover:translate-y-1'alt='discord-link'></img></a>

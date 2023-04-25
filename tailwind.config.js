@@ -12,6 +12,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        "spin-short": "spin 1s ease-in-out",
+      },
       fontFamily: {
         Play: ["Play", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
