@@ -35,8 +35,8 @@ const Navbar = () => {
 
         {/* overlaynavbar */}
         <div id="drop-down" className={nav ? 
-          'lg:hidden absolute flex flex-col items-center justify-center h-[100%] z-10 w-full bg-transparent backdrop-blur-[20px] gap-10 overflow-y-hidden ease-in duration-300 font-Poppins':
-          'lg:hidden absolute flex flex-col items-center justify-center h-[0%] z-10 w-full bg-transparent backdrop-blur-[20px] gap-10 overflow-y-hidden ease-in duration-300 font-Poppins'}>
+          'lg:hidden fixed flex flex-col items-center justify-center h-[100%] z-10 w-full bg-transparent backdrop-blur-[20px] gap-10 overflow-y-hidden ease-in duration-300 font-Poppins':
+          'lg:hidden fixed flex flex-col items-center justify-center h-[0%] z-10 w-full bg-transparent backdrop-blur-[20px] gap-10 overflow-y-hidden ease-in duration-300 font-Poppins'}>
                 <AiOutlineClose size={20} color='white' onClick={handleNav} className=' absolute top-10 right-[50px] font-Poppins ' style={{font:"Poppins"}}/>
                 <a href='#' className='text-white text-4xl bg-transparent font-Poppins'>Home</a>
                 <a href='#' className='text-white text-4xl bg-transparent '>Modules</a>

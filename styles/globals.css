@@ -33,3 +33,10 @@ body{
     }
   }
   /* xl:top-[90vh] md:top-[100vh] top-[90vh] */
+  .card{
+    opacity: 1;
+    transition: linear 200ms;
+  }
+  .card-wrapper:has(.card:hover) > .card:not(:hover){
+    opacity: 0.5;
+  }
