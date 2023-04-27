@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 // import {useState,useEffect} from 'react'
 export const Midcontainer = () => {
@@ -95,17 +96,17 @@ export const Midcontainer = () => {
         <h1 className='text-4xl font-bold'>Modules & Widgets</h1>
         <div className='flex mt-10 bg-zinc-800 max-w-2xl h-[100px] justify-center items-center overflow-scroll overflow-y-hidden rounded-lg px-4 gap-5'>
             <div className='flex gap-5'>
-            <img src="YourFlyouts.png" width={48} height={48} className='transition 150ms hover:border-2 p-1'/>
-            <img src="YourMixer.png" width={48} height={48}/>
-            <img src="ValliStart.png" width={48} height={48}/>
-            <img src="Keylaunch.png" width={48} height={48}/>
+            <Image src="YourFlyouts.png" width={48} height={48} className='transition 150ms hover:border-2 p-1' alt='flyouts'/>
+            <Image src="YourMixer.png" width={48} height={48} alt='mixer'/>
+            <Image src="ValliStart.png" width={48} height={48} alt='valli'/>
+            <Image src="Keylaunch.png" width={48} height={48} alt='key'/>
             </div>
             <div className='flex gap-5'>
-            <img src="IdleStyle.png" width={48} height={48}/>
-            <img src="ModularVisualizer.png" width={48} height={48}/>
-            <img src="ModularClocks.png" width={48} height={48}/>
-            <img src="ModularPlayers.png" width={48} height={48}/>
-            <img src="Plainext.png" width={48} height={48}/>
+            <Image src="IdleStyle.png" width={48} height={48} alt='idle'/>
+            <Image src="ModularVisualizer.png" width={48} height={48} alt='visualizer'/>
+            <Image src="ModularClocks.png" width={48} height={48} alt='clocks'/>
+            <Image src="ModularPlayers.png" width={48} height={48} alt='players'/>
+            <Image src="Plainext.png" width={48} height={48} alt='plainext'/>
             </div>
           </div>
         </div>
