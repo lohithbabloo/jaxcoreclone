@@ -36,7 +36,7 @@ export const Midcontainer = () => {
           </div>
           <div className='flex flex-col justify-center lg:w-full lg:items-start items-center'>
             <div className='flex flex-col'>
-              <h1 className='2xl:text-8xl lg:text-7xl font-bold font-Play mb-10 text-5xl lg:text-left text-center'>A desktop that's truly yours</h1>
+              <h1 className='2xl:text-8xl lg:text-7xl font-bold font-Play mb-10 text-5xl lg:text-left text-center'>A desktop {"that's"} truly yours</h1>
               <p className='md:text-2xl text-lg font-medium font-Play lg:text-left text-center'>JaxCore is a beautiful, functional, customizable set of tools and widgets to spice up your desktop</p>
             </div>
             <div className='flex mt-10 lg:items-start gap-4 font-Roboto'>
@@ -96,17 +96,17 @@ export const Midcontainer = () => {
         <h1 className='text-4xl font-bold'>Modules & Widgets</h1>
         <div className='flex mt-10 bg-zinc-800 max-w-2xl h-[100px] justify-center items-center overflow-scroll overflow-y-hidden rounded-lg px-4 gap-5'>
             <div className='flex gap-5'>
-            <Image src="YourFlyouts.png" width={48} height={48} className='transition 150ms hover:border-2 p-1' alt='flyouts'/>
-            <Image src="YourMixer.png" width={48} height={48} alt='mixer'/>
-            <Image src="ValliStart.png" width={48} height={48} alt='valli'/>
-            <Image src="Keylaunch.png" width={48} height={48} alt='key'/>
+            <Image src="/YourFlyouts.png" width={48} height={48} className='transition 150ms hover:border-2 p-1' alt='flyouts'/>
+            <Image src="/YourMixer.png" width={48} height={48} alt='mixer'/>
+            <Image src="/ValliStart.png" width={48} height={48} alt='valli'/>
+            <Image src="/Keylaunch.png" width={48} height={48} alt='key'/>
             </div>
             <div className='flex gap-5'>
-            <Image src="IdleStyle.png" width={48} height={48} alt='idle'/>
-            <Image src="ModularVisualizer.png" width={48} height={48} alt='visualizer'/>
-            <Image src="ModularClocks.png" width={48} height={48} alt='clocks'/>
-            <Image src="ModularPlayers.png" width={48} height={48} alt='players'/>
-            <Image src="Plainext.png" width={48} height={48} alt='plainext'/>
+            <Image src="/IdleStyle.png" width={48} height={48} alt='idle'/>
+            <Image src="/ModularVisualizer.png" width={48} height={48} alt='visualizer'/>
+            <Image src="/ModularClocks.png" width={48} height={48} alt='clocks'/>
+            <Image src="/ModularPlayers.png" width={48} height={48} alt='players'/>
+            <Image src="/Plainext.png" width={48} height={48} alt='plainext'/>
             </div>
           </div>
         </div>
